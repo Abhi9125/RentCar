@@ -8,7 +8,7 @@ const CarCard = ({ carinfo }) => {
   return (
     <div
       className="relative max-w-52 cursor-pointer"
-      onClick={() => navigate(`/cars/${carinfo._id}`)}
+      onClick={() => navigate(`/cars-details/${carinfo._id}`)}
     >
       <div>
         <img src={carinfo.image} alt="" />

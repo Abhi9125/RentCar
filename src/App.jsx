@@ -16,7 +16,7 @@ const App = () => {
       {!isOwnerPath && <Navbar setShowLogin={setShowLogin} />}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/car-details" element={<CarDetail />} />
+        <Route path="/cars-details/:id" element={<CarDetail />} />
         <Route path="/cars" element={<Cars />} />
         <Route path="/my-booking" element={<MyBookings />} />
       </Routes>
